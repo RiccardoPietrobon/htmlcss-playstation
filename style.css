@@ -1,0 +1,29 @@
+/* buttons */
+.btn {
+    border-radius: 20px;
+}
+
+/* jumbo_header */
+.carosello {
+    background-image: url(./img/jumbo-bg.png);
+    height: 670px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.box-img-info {
+    opacity: 0.5;
+}
+
+.box-img-info:hover {
+    opacity: 1;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+
+.jumbo_takes_two {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+}
