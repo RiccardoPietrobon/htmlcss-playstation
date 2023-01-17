@@ -10,10 +10,13 @@ main {
     background-position: center;
 }
 
-.box-card:hover {
-    cursor: pointer;
-    transform: translateY(-10px);
+.box-card {
     transition: 0.5s;
+}
+
+.box-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .box-img-info {
