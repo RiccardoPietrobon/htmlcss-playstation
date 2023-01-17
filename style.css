@@ -1,9 +1,19 @@
+main {
+    margin-top: 100px;
+}
+
 /* jumbo_header */
 .carosello {
     background-image: url(./img/jumbo-bg.png);
     height: 670px;
     object-fit: cover;
     background-position: center;
+}
+
+.box-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .box-img-info {
