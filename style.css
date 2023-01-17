@@ -27,3 +27,19 @@
     object-fit: cover;
     background-position: center;
 }
+
+.play_now {
+    background-color: hsl(230deg 46% 16%);
+}
+
+footer {
+    background-color: hsl(214deg 100% 31%);
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    cursor: pointer;
+}
