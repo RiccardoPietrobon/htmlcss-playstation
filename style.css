@@ -2,6 +2,22 @@ main {
     margin-top: 100px;
 }
 
+.link-giochi li {
+    list-style: disc;
+    list-style-position: inside;
+
+}
+
+.link-giochi li::marker {
+    color: dodgerblue;
+}
+
+.link-giochi a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* jumbo_header */
 .carosello {
     background-image: url(./img/jumbo-bg.png);
@@ -21,6 +37,11 @@ main {
 
 .box-img-info {
     opacity: 0.5;
+}
+
+.box-img-info {
+    max-width: 150px;
+    min-height: 250px;
 }
 
 .box-img-info:hover {
@@ -44,7 +65,7 @@ footer {
     background-color: hsl(214deg 100% 31%);
 }
 
-li {
+footer li {
     list-style: none;
 }
 
